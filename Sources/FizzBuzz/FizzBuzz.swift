@@ -1,5 +1,5 @@
 public struct FizzBuzz {
-    static func fizzBuzz(_ n: Int) -> [String] {
+    public static func fizzBuzz(_ n: Int) -> [String] {
         var fizzBuzz:[String] = []
         for i in 1...n {
             let divisibleBythree = (i%3 == 0)
